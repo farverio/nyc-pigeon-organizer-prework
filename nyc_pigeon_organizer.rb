@@ -8,8 +8,11 @@ def nyc_pigeon_organizer(data)
           output_hash[name] = {}
         end
         
-        if !output_hash[name][attribute] = []
-        << detail_name.to_s
+        if !output_hash[name][attribute]
+          output_hash[name][attribute] = []
+        end
+        
+        output_hash[name][attribute] << detail_name.to_s
       end
     end
   end
