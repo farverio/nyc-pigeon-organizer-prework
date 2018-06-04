@@ -12,5 +12,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  puts output_hash
+  output_hash
 end
