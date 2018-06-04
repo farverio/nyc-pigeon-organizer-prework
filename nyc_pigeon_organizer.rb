@@ -3,7 +3,8 @@ def nyc_pigeon_organizer(data)
   
   data.each do |attribute, details|
     details.each do |detail_name, pigeon_names|
-      puts output_hash[pigeon_names.to_sym]
+      pigeon_names.each do |name|
+      puts output_hash[pigeon_name.to_sym]
       # if !output_hash[pigeon_names.to_sym]
       #   output_hash[pigeon_names.to_sym] = {}
       # end
